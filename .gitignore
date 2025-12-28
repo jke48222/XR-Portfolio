@@ -1,4 +1,6 @@
-# ---- Unity (applies to all subprojects) ----
+# =========================
+# Unity Generated
+# =========================
 [Ll]ibrary/
 [Tt]emp/
 [Oo]bj/
@@ -6,90 +8,44 @@
 [Bb]uilds/
 [Ll]ogs/
 [Mm]emoryCaptures/
-[Uu]serSettings/
-[Uu]nityCrashHandler*/ 
-[Uu]nityShaderCompiler.log
 
-# ---- Cache & Auto-Generated Files ----
-[Aa]ssets/**/LightingData.asset
-[Aa]ssets/**/OcclusionCullingData.asset
-[Aa]ssets/**/Lightmap-*.exr
-[Aa]ssets/**/LightmapSnapshot.asset
-[Aa]ssets/**/GI/       # Global Illumination cache
-[Aa]ssets/**/StreamingAssets/BuildCache/
-
-# ---- IDE / Editors ----
-.vs/
+# =========================
+# IDE / Editor
+# =========================
 .vscode/
 .idea/
-*.sln
 *.csproj
+*.sln
+*.suo
 *.user
 *.userprefs
 *.pidb
+*.booproj
 *.svd
-*.pdb
-*.mdb
-*.opendb
-*.VC.db
 
-# ---- OS / Misc ----
+# =========================
+# OS Files
+# =========================
 .DS_Store
 Thumbs.db
-desktop.ini
 
-# ---- Android / Gradle ----
+# =========================
+# Crash Reports
+# =========================
+sysinfo.txt
+*.stackdump
+
+# =========================
+# Android / XR Build Artifacts
+# =========================
 .gradle/
-.gradle-cache/
-*.apk
-*.aab
-*.keystore
-*.jks
+**/AndroidBuild/
+**/AndroidLogs/
 
-# ---- Unity Version Control ----
-.plastic/
-**/.plastic/**
-.utmp/
-ignore.conf
-
-# ---- Package Manager ----
-# Keep Packages folder but ignore cache
-Packages/com.unity.cache/
-# Ignore auto-generated lock file (optional)
-Packages/packages-lock.json
-
-# ---- Build Artifacts ----
-*.exe
-*.app
-*.xcodeproj
-*.ipa
-*.unitypackage
-*.zip
-*.tar.gz
-*.tmp
-
-# ---- Logs and Profiling ----
-*.stacktrace
-*.log
-*.crash
-*.dmp
-*.profiler
-
-# ---- Platform-Specific ----
-# Windows
-*.lnk
-ehthumbs.db
-# macOS
-.AppleDouble
-._*
-.Spotlight-V100
-.Trashes
-# Linux
-*~
-
-# ---- Optional: Unity Collaborate or Cloud Build ----
-.collab/
-.CollabIgnore
-
-# ---- Ignore local Unity packages (keep manifest) ----
-Assets/AssetStoreTools*
+# =========================
+# Baked Lighting (Rebuildable)
+# =========================
+**/Lightmap-*.png
+**/Lightmap-*.exr
+**/ReflectionProbe-*.exr
+**/LightingData.asset
